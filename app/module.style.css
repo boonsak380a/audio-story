@@ -1,0 +1,100 @@
+.slider-list {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slider-item {
+    width: 750px;
+    height: 300px;
+    border-radius: 8px;
+    transition: transform 300ms ease-out, opacity 0ms ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-0 {
+    transform: translate(-164px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-1 {
+    transform: translate(0px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 1;
+    transform-origin: 0% 50%;
+}
+
+.slider-item-2 {
+    transform: translate(142px, 0) scale(1);
+    z-index: 3;
+    opacity: 1;
+}
+
+.slider-item-3 {
+    transform: translate(324px, 0) scale(0.87);
+    z-index: 1;
+    opacity: 1;
+}
+
+.slider-item-4 {
+    transform: translate(496px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-5 {
+    transform: translate(661px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-6 {
+    transform: translate(826px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-7 {
+    transform: translate(991px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-8 {
+    transform: translate(1156px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+.slider-item-9 {
+    transform: translate(1321px, 0) scale(0.87);
+    z-index: -1;
+    opacity: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.left-btn {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyBAMAAAC5cHbcAAAALVBMVEUAAAA9PT3v7+/n5+d5eXkAAAAAAAAAAADh4eEAAADz8/PGxsaSkpJiYmIODg4PHZa/AAAAD3RSTlMzP8u3UgAmEKsb1oZeSTWj9cjKAAAAQklEQVQoz2NAAemhDKhgKhqfHY3PxkABYGlE5TsZokorC4xIaYauA6h8YRVUPqORw8hUoIumYB/JSY6NQHqeip4fAEVoEJ7rSjzcAAAAAElFTkSuQmCC);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.right-btn {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyBAMAAAC5cHbcAAAAKlBMVEUAAAA9PT3v7+/n5+d5eXkAAAAAAAAAAADh4eEAAADz8/PGxsaSkpJiYmLK2R3YAAAADnRSTlMzP8u3UgAmEKsb1oZeSUaiznEAAABESURBVCjPYwgtY0ABkQyooACNn8BAKZBwQOULq6DyGY1GFYAAzwpUvpMhCpdFWWBkSF9ClWbgBkoTDxIw0jPe9I6eHwCyMxDqoi0N+AAAAABJRU5ErkJggg==);
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
