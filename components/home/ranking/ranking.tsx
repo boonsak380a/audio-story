@@ -9,42 +9,42 @@ export function Ranking(props: IRankingProps) {
   const rankingBooks: Book[] = [
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 1 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/9529-audiofreehighqps/48/EA/GAqhAW0KfNtIAAMkRAL36vT_.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
     },
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 2 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/a03f-audiofreehighqps/1F/6C/GKwRIDoKm1dPAAHh4QMDZ5pG.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
     },
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 3 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/a03f-audiofreehighqps/1F/6C/GKwRIDoKm1dPAAHh4QMDZ5pG.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
     },
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 4 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/a03f-audiofreehighqps/1F/6C/GKwRIDoKm1dPAAHh4QMDZ5pG.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
     },
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 5 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/a03f-audiofreehighqps/1F/6C/GKwRIDoKm1dPAAHh4QMDZ5pG.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
     },
     {
       title:
-        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
+        "徐静波精讲松下幸之助｜亲历日本的繁荣与停滞 6 | 静说日本升级版 | 日本经营之神的成事心法 | 正版有声书+独家解读",
       cover_photo:
         "https://imagev2.xmcdn.com/storages/a03f-audiofreehighqps/1F/6C/GKwRIDoKm1dPAAHh4QMDZ5pG.jpeg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
       author: "徐静波",
