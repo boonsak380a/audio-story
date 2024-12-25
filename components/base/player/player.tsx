@@ -5,7 +5,6 @@ import "./module.style.css";
 import { Button, Dropdown, Image, Slider } from "@douyinfe/semi-ui";
 import { IconPlayCircle, IconRestart } from "@douyinfe/semi-icons";
 import { Volume2, VolumeX } from "lucide-react";
-import Link from "@douyinfe/semi-ui/lib/es/anchor/link";
 import Text from "@douyinfe/semi-ui/lib/es/typography/text";
 
 export interface IPlayerProps {}
@@ -14,7 +13,7 @@ export function Player(props: IPlayerProps) {
   const [volume, setVolume] = useState(50);
   const [isMuted, setIsMuted] = useState(false);
 
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   //   useEffect(() => {
   //     if (props.play) {
@@ -24,7 +23,7 @@ export function Player(props: IPlayerProps) {
 
   const playAudio = () => {
     if (audioRef.current) {
-      audioRef.current.play();
+      audioRef.current?.play();
     }
   };
 
